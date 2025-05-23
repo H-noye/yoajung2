@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 1.30208vw;
+    }
+
+    /* br {
+        display: none;
+    } */
+}
+
+@media (max-width:540px) {
+    html {
+        font-size: 1.85185vw;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.inner {
+    max-width: 141rem;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 14.4rem 0;
+}
+
+.default .title {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.default .title h2 {
+    position: relative;
+    display: block;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+.default .title h2 p {
+    margin-left: 4px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
